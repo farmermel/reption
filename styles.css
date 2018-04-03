@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+textarea {
+  max-width: 98%;
+  min-width: 98%;
+  min-height: 100px;
+  max-height: 150px;
+}
+
+button {
+  height: 30px;
+}
+
+img {
+  width: 90px;
+}
+
+.ipsum-wrap {
+  background-color: #dfdedc;
+  height: 300px;
+  overflow-y: scroll;
+}
